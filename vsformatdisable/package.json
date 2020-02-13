@@ -2,7 +2,13 @@
 	"name": "vsformatdisable",
 	"displayName": "VSFormatDisable",
 	"description": "an extension to disable auto-formatting per file extension",
-	"version": "0.0.1",
+	"version": "1.0.0",
+	"icon": "vsfd.png",
+	"publisher": "vsformatdisable",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Nick-Bueltel/VSFormatDisable"
+	},
 	"engines": {
 		"vscode": "^1.42.0"
 	},
