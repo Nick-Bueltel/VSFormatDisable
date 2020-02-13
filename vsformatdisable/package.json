@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.disable"
+		"onCommand:extension.toggleAll"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.disable",
-				"title": "VSFormatDisable"
+				"command": "extension.toggleAll",
+				"title": "VSFormatDisable.toggleAll"
 			}
 		]
 	},
